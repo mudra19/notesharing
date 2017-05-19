@@ -1,0 +1,45 @@
+#uploadBtn
+{
+  padding: 5px 20px;
+    margin: 8px 8px;
+    color:white;
+    border-color: white;
+    background-color: #a95397;
+}
+#headerImage{
+  background:url('http://eastchapelhillobserver.com/wp-content/uploads/2017/03/Taking-Notes.jpg');
+  height:300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+nav.myNavbar
+{
+  margin-bottom:1px;
+  background-color:  #a95397;
+  border-color: #a95397;
+  border-radius: 0px;
+}
+nav.myNavbar .navbar-brand{
+color:white;
+}
+nav.notesNav{
+  background-color: #a95397;
+  border-color:  #a95397;
+  border-radius: 0px;
+}
+.notesNav .navbar-nav li a{
+  color:white;
+}
+.notesNav .navbar-nav li a:hover
+{
+  background:#ddd;
+  color:#434344;
+  outline: 0;
+}
+
+.notesNav .navbar-nav li a:active,
+.notesNav .navbar-nav li a:focus
+{
+  outline:0;
+}
