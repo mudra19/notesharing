@@ -41,5 +41,31 @@ nav.notesNav{
 .notesNav .navbar-nav li a:active,
 .notesNav .navbar-nav li a:focus
 {
+  background:#ddd;
+  color:#434344;
   outline:0;
+}
+
+#loader
+{
+ display: none;
+}
+
+.overlay
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  background: black;
+  z-index: 1053;
+
+}
+.loading
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:grey;
+  z-index: 1060;
 }
